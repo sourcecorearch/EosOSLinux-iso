@@ -1,7 +1,6 @@
 alsa-utils
 amd-ucode
 arch-install-scripts
-archinstall
 archlinux-keyring
 avahi
 b43-fwcutter
@@ -38,6 +37,8 @@ ethtool
 exfatprogs
 fastfetch
 f2fs-tools
+firewalld
+python-pyqt6
 fastfetch
 fatresize
 firefox
@@ -49,6 +50,7 @@ gpm
 gptfdisk
 grml-zsh-config
 grub
+grub-btrfs
 gvfs
 gzip
 haveged
@@ -197,7 +199,6 @@ xf86-input-vmmouse
 xf86-input-void
 xf86-video-amdgpu
 xf86-video-nouveau
-xf86-video-intel
 xf86-video-fbdev
 xf86-video-qxl
 xf86-video-vmware
