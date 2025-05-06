@@ -21,26 +21,14 @@ alias ls='ls --color=auto'
 alias la='ls -a'
 alias ll='ls -la'
 alias l='ls'
-alias l.="ls -A | egrep '^\.'"
 alias grep='grep --colour=auto'
 alias egrep='egrep --colour=auto'
 alias fgrep='fgrep --colour=auto'
 alias df='df -h'                          # human-readable sizes
 alias free='free -m'                      # show sizes in MB
 alias updatedb='sudo pacman -Sy'
-PS1='\[\033[01;32m\][\u@\h \W]\$\[\033[00m\] '
 
-# Bash won't get SIGWINCH if another process is in the foreground.
-# Enable checkwinsize so that bash will check the terminal size when
-# it regains control.  #65623
-# http://cnswww.cns.cwru.edu/~chet/bash/FAQ (E11)
-shopt -s checkwinsize
+PS1='[\u@\h \W]\$ '
 
-shopt -s expand_aliases
-
-# export QT_SELECT=4
-
-# Enable history appending instead of overwriting.  #139609
-shopt -s histappend
 
 fastfetch

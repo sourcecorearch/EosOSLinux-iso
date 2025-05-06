@@ -210,6 +210,10 @@ xorg-xkill
 xorg-xrandr
 xorg-xrdb
 zip
+bluez
+bluez-utils
+bluez-tools
+bluez-qt
 
 # dependencias calamares
 kpmcore
@@ -220,5 +224,5 @@ ckbcomp
 
 # --- calamares
 calamares
-#core-calamares-config
+core-calamares-config
 core-wallpapers

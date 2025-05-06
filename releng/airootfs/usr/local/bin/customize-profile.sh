@@ -11,7 +11,7 @@ pacman-key --init
 
 systemctl enable firewalld.service
 
-# systemctl enable bluetooth
+systemctl enable bluetooth
 
 # Habilita sddm Plasma
 systemctl enable sddm.service
